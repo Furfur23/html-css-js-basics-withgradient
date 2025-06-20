@@ -1,13 +1,8 @@
 .circle {
-    width: 300px;
-    height: 300px;
+    width: 64px;
+    height: 64px;
     background-color: red;
     border-radius: 100%;
-    margin-top: 64px;
-    margin-bottom: 24px;
-    margin-left: 0px;
-    padding: 120px;
-    box-sizing: border-box;
 }
 
 .content {
@@ -18,3 +13,12 @@
     text-decoration: none;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 64px 128px;
+    justify-content: flex-start;
+    align-content: flex-end;
+    height: 100vh;
+    background-color: green;
+}
