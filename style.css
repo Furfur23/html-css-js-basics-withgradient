@@ -4,3 +4,11 @@
     background-color: brown;
     border-radius: 100%;
 }
+
+.content {
+    color: green !important;
+}
+
+#link-gradient {
+    text-decoration: none;
+}
