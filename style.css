@@ -13,12 +13,3 @@
     text-decoration: none;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 64px 128px;
-    justify-content: flex-start;
-    align-content: flex-end;
-    height: 100vh;
-    background-color: green;
-}
