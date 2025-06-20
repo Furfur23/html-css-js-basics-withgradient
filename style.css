@@ -12,3 +12,9 @@
 #link-gradient {
     text-decoration: none;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
